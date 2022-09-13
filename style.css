@@ -57,17 +57,27 @@ main{
 .type{
     display: inline-block;
     position: relative; top: -4px;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 .done{
     color: green;
 }
+.not-done{
+    color: red;
+}
 .yes{
     font-weight: lighter;
     font-size: small;
+    position: relative;left: +19px;
+}
+.not{
+    font-weight: lighter;
+    font-size: small;
+    position: relative;left: +19px;
 }
 .O{
-    position: absolute;top: +378px;
-    position: absolute;left: +313px;
+    position: relative;top: +7px;
     font-weight: lighter;
     font-size: 40px;
 }
@@ -83,4 +93,14 @@ main{
     font-size: smaller;
     font-weight: lighter;
     position: relative;top: +3px;
+}
+.goals{
+    background-color: rgb(170, 0, 255);
+    color: white;
+    border-radius: 7px;
+    padding: 4px 5px;
+    font-size: smaller;
+    font-weight: lighter;
+    position: relative;top: +3px;
+
 }
