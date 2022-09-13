@@ -50,6 +50,7 @@ main{
     padding-left: 50px;
     padding-top: 40px;
     padding-bottom: 40px;
+    margin-bottom: 20px;
 }
 .triangle{
    font-size: 30px;
@@ -85,8 +86,7 @@ main{
     padding-top: 0px;
     margin-top: 0px;
 }
-.editorial{
-    background-color: rgb(0, 145, 255);
+.tag{
     color: white;
     border-radius: 7px;
     padding: 4px 5px;
@@ -94,13 +94,21 @@ main{
     font-weight: lighter;
     position: relative;top: +3px;
 }
+.editorial{
+    background-color: rgb(0, 145, 255);
+}
 .goals{
     background-color: rgb(170, 0, 255);
-    color: white;
-    border-radius: 7px;
-    padding: 4px 5px;
-    font-size: smaller;
-    font-weight: lighter;
-    position: relative;top: +3px;
-
+}
+.recruiting{
+    background-color: rgb(3, 204, 137);
+}
+.mobile{
+    background-color: orange;
+}
+.website{
+    background-color: rgb(255, 192, 248);
+}
+.sales{
+    background-color: rgb(186, 255, 47);
 }
